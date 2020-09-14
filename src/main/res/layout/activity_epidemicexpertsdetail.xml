@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    app:theme="@style/AppTheme.NoActionBar"
+    tools:context="com.java.zhengkw.epidemicExpertsDetail.EpidemicExpertsDetailActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/epidemicexpertsdetail_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/epidemicexpertsdetail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="54.85dp"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_title"
+                android:layout_width="120dp"
+                android:layout_height="38.85dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_text"
+                android:textColor="@color/colorBackground"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="ContentDescription" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="1dp"
+        android:clickable="true"
+        tools:context=".epidemicExperts.EpidemicExpertsActivity">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="0">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/epidemicexpertsdetail_image"
+                        android:layout_width="124.57dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="19.14dp"
+                        android:layout_marginTop="21.14dp"
+                        android:layout_marginBottom="21.14dp"
+                        android:scaleType="centerInside" />
+
+                    <LinearLayout
+                        android:id="@+id/epidemicexpertsdetail_linear_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="21.14dp"
+                        android:layout_marginBottom="21.14dp"
+                        android:layout_toEndOf="@id/epidemicexpertsdetail_image"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/epidemicexpertsdetail_name"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="26.57dp"
+                            android:layout_marginEnd="19.14dp"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/epidemicexpertsdetail_bio"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="26.57dp"
+                            android:layout_marginEnd="19.14dp"
+                            android:scrollbars="vertical"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TableLayout
+        android:id="@+id/epidemicexpertsdetail_tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10pt"
+        android:shrinkColumns="0"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_activity_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_activity_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_activity_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_sociability_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_sociability_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_sociability_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_pubs_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_pubs_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_pubs_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_citations_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_citations_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_citations_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_affiliation_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_affiliation_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_affiliation_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_position_name"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/epidemicexpertsdetail_position_text"
+                android:textColor="@color/colorFont"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/epidemicexpertsdetail_position_content"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/colorGrayFont"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/epidemicexpertsdetail_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorBackground"
+        app:layout_scrollFlags="scroll"
+        app:tabIndicatorColor="@color/colorScrollRed"
+        app:tabIndicatorHeight="2.3dp"
+        app:tabMinWidth="62.85dp"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        app:tabTextColor="@color/colorFont" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/epidemicexpertsdetail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

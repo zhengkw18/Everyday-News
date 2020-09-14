@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginBottom="1dp"
+    android:clickable="true"
+    tools:context=".epidemicExperts.EpidemicExpertsActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/epidemicexperts_image"
+                    android:layout_width="124.57dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="19.14dp"
+                    android:layout_marginTop="21.14dp"
+                    android:layout_marginBottom="21.14dp"
+                    android:scaleType="centerInside" />
+                <LinearLayout
+                    android:id="@+id/epidemicexperts_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="21.14dp"
+                    android:layout_marginBottom="21.14dp"
+                    android:layout_toEndOf="@id/epidemicexperts_image"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/epidemicexperts_name"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="26.57dp"
+                        android:layout_marginEnd="19.14dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/epidemicexperts_position"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="26.57dp"
+                        android:layout_marginEnd="19.14dp"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:id="@+id/epidemicexperts_affiliation"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="26.57dp"
+                        android:layout_marginEnd="19.14dp"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

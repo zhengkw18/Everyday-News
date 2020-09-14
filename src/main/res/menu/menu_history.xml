@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".history.HistoryActivity">
+
+    <item
+        android:id="@+id/history_toolbar_clear"
+        android:icon="@mipmap/sweep"
+        android:orderInCategory="90"
+        android:title="@string/history_clear"
+        app:showAsAction="ifRoom" />
+</menu>

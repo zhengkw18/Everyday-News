@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.java.zhengkw.history.HistoryActivity"
+    app:theme="@style/AppTheme.NoActionBar">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/history_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/history_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="54.85dp"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/history_title"
+                android:layout_width="120dp"
+                android:layout_height="38.85dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/menu_history"
+                android:textColor="@color/colorBackground"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                tools:ignore="ContentDescription" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/history_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

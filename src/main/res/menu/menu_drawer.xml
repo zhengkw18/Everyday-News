@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="@string/menu_news" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_history"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_epidemicdata"
+            android:icon="@drawable/ic_menu_data"
+            android:title="@string/menu_epidemicdata" />
+        <item
+            android:id="@+id/nav_epidemicgraph"
+            android:icon="@drawable/ic_menu_graph"
+            android:title="@string/menu_epidemicgraph" />
+        <item
+            android:id="@+id/nav_epidemicevents"
+            android:icon="@drawable/ic_menu_events"
+            android:title="@string/menu_epidemicevents" />
+        <item
+            android:id="@+id/nav_epidemicexperts"
+            android:icon="@drawable/ic_menu_expert"
+            android:title="@string/menu_epidemicexperts" />
+    </group>
+
+</menu>

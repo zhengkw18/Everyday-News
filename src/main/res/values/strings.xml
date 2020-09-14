@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Everyday News</string>
+    <string name="navigation_drawer_open">打开侧边栏</string>
+    <string name="navigation_drawer_close">关闭侧边栏</string>
+    <string name="nav_header_title">Everyday News</string>
+    <string name="nav_header_subtitle">powered by zhengkw</string>
+    <string name="nav_header_desc">侧边栏</string>
+    <string name="action_settings">增加/删除分类</string>
+
+    <string name="menu_news">疫情新闻</string>
+    <string name="menu_history">浏览历史</string>
+    <string name="menu_epidemicdata">疫情数据</string>
+    <string name="menu_epidemicevents">疫情事件聚类</string>
+    <string name="menu_epidemicgraph">疫情图谱</string>
+    <string name="menu_epidemicexperts">知疫学者</string>
+
+    <string name="search_button">请输入搜索内容</string>
+
+    <string name="load_text_pulling_up">上拉加载更多</string>
+    <string name="load_text_loading">加载中&#8230;</string>
+    <string name="load_text_finish">加载完毕</string>
+    <string name="news_page_action_share">分享</string>
+    <string name="share_cancel">取消</string>
+    <string name="search">搜索新闻</string>
+    <string name="history_clear">清空浏览记录</string>
+    <string name="text_confirmed">感染人数</string>
+    <string name="text_cured">治愈人数</string>
+    <string name="text_dead">死亡人数</string>
+    <string name="text_region">地区</string>
+    <string name="searchgraph_text">搜索疫情图谱</string>
+    <string name="epidemicgraphdetail_title">图谱详情</string>
+    <string name="text_properties">属性</string>
+    <string name="text_relations">关系</string>
+    <string name="epidemicexpertsdetail_text">学者信息</string>
+    <string name="epidemicexpertsdetail_activity_text">学术活跃度</string>
+    <string name="epidemicexpertsdetail_sociability_text">社交活跃度</string>
+    <string name="epidemicexpertsdetail_pubs_text">发表文献数</string>
+    <string name="epidemicexpertsdetail_citations_text">引用数</string>
+    <string name="epidemicexpertsdetail_affiliation_text">供职于</string>
+    <string name="epidemicexpertsdetail_position_text">职位</string>
+    <string name="category_text1">我的频道</string>
+    <string name="category_text2">点击删除频道</string>
+    <string name="category_text3">隐藏的频道</string>
+    <string name="category_text4">点击添加频道</string>
+    <string name="introduce">您的疫情信息助手</string>
+</resources>
