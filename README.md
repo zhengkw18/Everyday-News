@@ -1,7 +1,7 @@
 # Everyday-News
 An android app for COVID-19 news
 
-使用了第三方库Glide, Jackson, ShareSDK, MPAndroidChart
+Java小学期的大作业，使用了第三方库Glide, Jackson, ShareSDK, MPAndroidChart
 
 大作业单项是满分，我还是单人组队分数乘以1.1，但就是不给溢出，气不气。
 
